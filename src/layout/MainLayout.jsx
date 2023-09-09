@@ -1,7 +1,6 @@
 import './styles/mainLayout.scss';
 import React from 'react';
 import '../styles/colors.scss';
-import PropTypes from 'prop-types';
 
 const MainLayout = ({ children }) => {
 	return (
@@ -16,9 +15,5 @@ const MainLayout = ({ children }) => {
 		</>
 	);
 };
-
-// MainLayout.propTypes = {
-// children: PropTypes.arrayOf(PropTypes.element),
-// };
 
 export default MainLayout;
