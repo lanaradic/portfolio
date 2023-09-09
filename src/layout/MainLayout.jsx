@@ -17,8 +17,8 @@ const MainLayout = ({ children }) => {
 	);
 };
 
-MainLayout.propTypes = {
-	children: PropTypes.arrayOf(PropTypes.element),
-};
-//trigger Husky
+// MainLayout.propTypes = {
+// children: PropTypes.arrayOf(PropTypes.element),
+// };
+
 export default MainLayout;
