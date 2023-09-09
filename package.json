@@ -32,7 +32,7 @@
 		"vite": "^4.4.5"
 	},
 	"lint-staged": {
-		"*.js": "eslint --cache --fix",
+		"*.jsx": "eslint --cache --fix",
 		"*.--write": "prettier --write"
 	}
 }
