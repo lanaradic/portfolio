@@ -1,0 +1,36 @@
+.game {
+	display: flex;
+	flex-grow: 6;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: #607b96;
+	// border: 2px solid red;
+}
+.game-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	min-width: 400px;
+	min-height: 400px;
+	border-radius: 8px;
+	border: 1px solid #0c1616;
+	background: linear-gradient(
+		150deg,
+		rgba(23, 85, 83, 0.7) 1.7%,
+		rgba(67, 217, 173, 0.09) 81.82%
+	);
+	box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
+	box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+	backdrop-filter: blur(32px);
+}
+.bolt-l {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bolt-r {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

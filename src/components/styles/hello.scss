@@ -1,0 +1,39 @@
+.intro {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 2;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 210px;
+	height: 100%;
+	color: #607b96;
+	gap: 5px;
+}
+
+h6 {
+	font-size: 18px;
+	color: #e5e9f0;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+h1 {
+	font-size: 42px;
+	font-weight: 200;
+	color: #e5e9f0;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+h3 {
+	font-size: 32px;
+	font-weight: 450;
+	color: #4d5bce;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
