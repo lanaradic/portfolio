@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/colors.scss';
 import github from '../assets/github-img.svg';
 import mail from '../assets/mail.svg';
+import { Link } from 'react-router-dom';
 
 const MainLayout = ({ children }) => {
 	return (
@@ -10,9 +11,14 @@ const MainLayout = ({ children }) => {
 			<div className="main-layout-wrapper">
 				<div className="main-content-wrapper">
 					<header className="header-wrapper">
-						<div className="name-wrapper">_Lana_Radic</div>
-						<div className="hello-wrapper">_hello</div>
-						<div className="about-wrapper">_about_me</div>
+						<div className="name-wrapper">Lana_Radic</div>
+						<Link to="/">
+							<div className="hello-wrapper">_hello</div>
+						</Link>
+						<Link to="/About">
+							<div className="about-wrapper">_about_me</div>
+						</Link>
+
 						<div className="projects-wrapper">_projects</div>
 						<div className="empty"></div>
 						<div className="contact-wrapper">_contact_me</div>

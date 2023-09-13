@@ -162,5 +162,12 @@
 	align-items: center;
 	color: #607b96;
 	padding-top: 50px;
-	padding-bottom: 70px;
+	padding-bottom: 10px;
+}
+:any-link {
+	color: #607b96;
+	text-decoration: none;
+	:hover {
+		color: #43d9ad;
+	}
 }
