@@ -44,7 +44,6 @@
 	flex-shrink: 0;
 	border-radius: 8px;
 	border: 1px solid #1e2d3d;
-	margin-top: auto;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -161,8 +160,7 @@
 	display: flex;
 	align-items: center;
 	color: #607b96;
-	padding-top: 50px;
-	padding-bottom: 10px;
+	min-height: 525px;
 }
 :any-link {
 	color: #607b96;
