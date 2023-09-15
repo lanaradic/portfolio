@@ -5,7 +5,6 @@
 	align-items: center;
 	height: 100%;
 	color: #607b96;
-	// border: 2px solid red;
 }
 .game-box {
 	display: flex;
@@ -107,6 +106,8 @@ h4 {
 	height: 45px;
 	width: 45px;
 	border-radius: 8px;
+	font-family: sans-serif;
+	font-size: 18px;
 	border: 1px solid #1e2d3d;
 	background: #010c15;
 	box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
@@ -128,4 +129,24 @@ button {
 	background: #010c15;
 	box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
 	margin-top: 20px;
+}
+.score-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	width: 80px;
+	background: #010c15;
+	border: 1px solid #1e2d3d;
+	border-radius: 8px;
+	box-shadow: 0px 2px 0px 0px rgba(255, 255, 255, 0.3) inset;
+	border: 2 px solid red;
+}
+.show-score {
+	display: flex;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 300px;
+	color: #43d9ad;
 }

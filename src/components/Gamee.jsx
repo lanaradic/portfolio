@@ -8,6 +8,17 @@ const Gamee = () => {
 	const [userSelection, setUserSelection] = useState(null);
 	const [finalOutput, setFinalOutput] = useState(null);
 	const selection = ['🧱', '📰', '✂️', '🦎', '🖖'];
+	const [playerScore, setPlayerScore] = useState(0);
+	const [computerScore, setComputerScore] = useState(0);
+
+	// eslint-disable-next-line no-unused-vars
+	const score = (setFinalOutput) => {
+		if (setFinalOutput === 'YOU WON!!! 🎉') {
+			setPlayerScore(playerScore + 1);
+		} else if (setFinalOutput === 'YOU LOSE!!! ') {
+			setComputerScore(computerScore + 1);
+		}
+	};
 
 	const clickHandler = (value) => {
 		setUserSelection(value);
@@ -34,6 +45,7 @@ const Gamee = () => {
 				case '✂️🦎':
 				case '🦎🖖':
 					setFinalOutput('YOU WON!!! 🎉');
+					setPlayerScore(playerScore + 1);
 					break;
 				case '📰✂️':
 				case '✂️🧱':
@@ -46,6 +58,7 @@ const Gamee = () => {
 				case '🦎✂️':
 				case '🖖🦎':
 					setFinalOutput('YOU LOSE!!! 👎 ');
+					setComputerScore(computerScore + 1);
 					break;
 				case '🧱🧱':
 				case '📰📰':
@@ -68,6 +81,12 @@ const Gamee = () => {
 					</div>
 					<div className="title-w">
 						<span>*Rock Paper Scissors Lizard Spock*</span>
+					</div>
+					<div className="score-wrapper">
+						<div className="show-score">SCORE: </div>
+						<div className="show-score">
+							{playerScore}:{computerScore}
+						</div>
 					</div>
 
 					<div className="container">

@@ -1,0 +1,19 @@
+.interests2-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-grow: 5;
+	min-height: 488px;
+	width: -webkit-fill-available;
+}
+p {
+	color: #607b96;
+	text-align: right;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding-left: 15px;
+	font-style: normal;
+	font-weight: 450;
+	margin-top: 5px;
+}
