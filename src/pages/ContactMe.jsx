@@ -3,6 +3,7 @@ import '../components/styles/contactMe.scss';
 import mail from '../assets/mail-icon.svg';
 import phone from '../assets/phone-icon.svg';
 import github from '../assets/github-img.svg';
+import panda from '../assets/panda-2.png';
 
 const ContactMe = () => {
 	return (
@@ -16,13 +17,17 @@ const ContactMe = () => {
 						<img src={github} height="28px" alt="github icon" />
 					</div>
 					<div className="social-contact-wrapper">
-						<p>lanaradic1990@gmail.com</p>
+						<a href="https://mail.google.com/mail/u/1/#inbox">
+							lanaradic1990@gmail.com
+						</a>
 						<p>099/333-28-50</p>
-						<p>@lanaradic</p>
+						<a href="https://github.com/lanaradic">@lanaradic</a>
 					</div>
 				</div>
 			</div>
-			<div className="contact-main-content">kontent</div>
+			<div className="contact-main-content">
+				<img src={panda} height="300px" width="400px" alt="panda icon" />
+			</div>
 		</div>
 	);
 };

@@ -11,7 +11,7 @@
 	flex-direction: column;
 	align-items: center;
 	min-width: 400px;
-	min-height: 400px;
+	min-height: 500px;
 	border-radius: 8px;
 	border: 1px solid #0c1616;
 	background: linear-gradient(
@@ -55,8 +55,8 @@ h2 {
 	margin-block-end: 0px;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
-	margin-top: 50px;
-	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 0px;
 }
 
 span {
@@ -135,8 +135,8 @@ button {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 40px;
-	width: 80px;
+	height: 45px;
+	width: 120px;
 	background: #010c15;
 	border: 1px solid #1e2d3d;
 	border-radius: 8px;
@@ -145,8 +145,20 @@ button {
 }
 .show-score {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: sans-serif;
 	font-size: 14px;
 	font-weight: 300px;
+	color: #43d9ad;
+}
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 300px;
+	width: 60px;
 	color: #43d9ad;
 }

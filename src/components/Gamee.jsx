@@ -30,6 +30,11 @@ const Gamee = () => {
 			selection[Math.floor(Math.random() * selection.length)];
 		setComputerSelection(randomSelection);
 	};
+	const resetGame = () => {
+		setPlayerScore(null);
+		setComputerScore(null);
+		setFinalOutput(null);
+	};
 
 	useEffect(() => {
 		{
@@ -88,7 +93,7 @@ const Gamee = () => {
 							{playerScore}:{computerScore}
 						</div>
 					</div>
-
+					<button onClick={resetGame}>Reset</button>
 					<div className="container">
 						<div className="section">
 							<div className="info">

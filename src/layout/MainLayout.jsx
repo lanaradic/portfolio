@@ -3,6 +3,7 @@ import './styles/mainLayout.scss';
 import '../styles/colors.scss';
 import github from '../assets/github-img.svg';
 import mail from '../assets/mail.svg';
+import pandica from '../assets/ideogram-modified.png';
 import { Link } from 'react-router-dom';
 
 const MainLayout = ({ children }) => {
@@ -17,7 +18,9 @@ const MainLayout = ({ children }) => {
 			<div className="main-layout-wrapper">
 				<div className="main-content-wrapper">
 					<header className="header-wrapper">
-						<div className="name-wrapper">_Lana_Radic</div>
+						<div className="name-wrapper">
+							<img src={pandica} height="30px" alt="logo" /> *Lana*
+						</div>
 						<Link onClick={() => handleLinkClick('_hello')} to="/">
 							<div
 								className={`hello-wrapper ${
@@ -66,11 +69,13 @@ const MainLayout = ({ children }) => {
 						<div className="find-wrapper">_find_me_on:</div>
 						<div className="social">
 							<img src={github} height="24px" alt="github icon" />
-							<p>@lanaradic</p>
+							<a href="https://github.com/lanaradic">@lanaradic</a>
 						</div>
 						<div className="social2">
 							<img src={mail} height="24px" alt="mail icon" />
-							<p>lanaradic1990@gmail.com</p>
+							<a href="https://mail.google.com/mail/u/1/#inbox">
+								lanaradic1990@gmail.com
+							</a>
 						</div>
 					</footer>
 				</div>
