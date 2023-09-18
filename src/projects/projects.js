@@ -1,11 +1,11 @@
 export const data = [
 	{
 		title: 'my first game',
-		image: document.getElementById('github-img.svg'),
+		image: '/src/assets/spock.png',
 	},
 	{
-		title: 'naslov 1',
-		image: 'image',
+		title: 'Log in form',
+		image: '/src/assets/login.png',
 	},
 	{
 		title: 'naslov 2',
