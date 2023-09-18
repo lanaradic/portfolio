@@ -1,6 +1,6 @@
 export const data = [
 	{
-		title: 'my first game',
+		title: 'My first game',
 		image: '/src/assets/spock.png',
 	},
 	{
@@ -8,19 +8,7 @@ export const data = [
 		image: '/src/assets/login.png',
 	},
 	{
-		title: 'naslov 2',
-		image: 'image',
-	},
-	{
-		title: 'naslov 3',
-		image: 'image',
-	},
-	{
-		title: 'naslov 4',
-		image: 'image',
-	},
-	{
-		title: 'naslov 4',
-		image: 'image',
+		title: 'To do list',
+		image: '/src/assets/toDo.png',
 	},
 ];
