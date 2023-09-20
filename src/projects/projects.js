@@ -9,6 +9,6 @@ export const data = [
 	},
 	{
 		title: 'To do list',
-		image: '/src/assets/toDo.png',
+		image: '/src/assets/to-do-list-2.png',
 	},
 ];

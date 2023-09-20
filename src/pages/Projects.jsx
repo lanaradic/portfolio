@@ -17,11 +17,13 @@ const Projects = () => {
 					<img src={iconC} height="24px" alt="css icon" />
 				</div>
 				<p>HTML</p>
-				<p>SCSS</p>
+				<p>CSS</p>
 				<p>JavaScript</p>
 				<p>React Js</p>
+				<p>Vite</p>
+				<p>SASS</p>
 				<p>Figma</p>
-				<p>Git version controll</p>
+				<p>GitHub</p>
 			</div>
 			<div className="main-project-wrapper">
 				<div className="projects-title-wrapper">***Projects***</div>
