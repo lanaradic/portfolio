@@ -11,4 +11,8 @@ export const data = [
 		title: 'To do list',
 		image: '/src/assets/to-do-list-2.png',
 	},
+	{
+		title: 'Weather app',
+		image: '/src/assets/weatherapp.png',
+	},
 ];

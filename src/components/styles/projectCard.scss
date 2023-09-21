@@ -3,8 +3,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 250px;
-	height: 250px;
+	width: 280px;
+	height: 350px;
 	border-radius: 15px;
 	border: 1px solid #1e2d3d;
 	background: #011221;
@@ -15,10 +15,9 @@
 	justify-content: center;
 	align-items: center;
 	flex-grow: 2;
-	height: 130px;
+	height: 150px;
 	width: -webkit-fill-available;
 	overflow: hidden;
-	// border: 2px solid green;
 }
 .project-bottom {
 	display: flex;
@@ -26,6 +25,7 @@
 	align-items: center;
 	padding-left: 15px;
 	flex-grow: 2;
+	height: 20px;
 	width: -webkit-fill-available;
 	// border: 2px solid purple;
 }

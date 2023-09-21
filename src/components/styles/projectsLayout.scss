@@ -56,14 +56,14 @@
 	display: flex;
 	position: absolute;
 	transform: translateY(0);
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: flex-start;
-	gap: 30px;
+	gap: 20px;
 	flex-grow: 1;
-	margin-left: 10px;
+	margin-left: 35px;
 	padding-top: 55px;
 	max-height: 460px;
-	width: 1040px;
+	width: 1045px;
 	flex-wrap: wrap;
 	overflow: scroll;
 	overflow-y: auto;
