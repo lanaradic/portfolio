@@ -1,11 +1,33 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import '../components/styles/contactMe.scss';
 import mail from '../assets/mail-icon.svg';
 import phone from '../assets/phone-icon.svg';
 import github from '../assets/github-img.svg';
-import panda from '../assets/panda-2.png';
+import emailjs from '@emailjs/browser';
 
 const ContactMe = () => {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+
+		emailjs
+			.sendForm(
+				'service_9pwmcvf',
+				'template_c93adbb',
+				form.current,
+				'0HFZ0-CYLortyMiWq'
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
+
 	return (
 		<div className="contatct-main">
 			<div className="nav-wraper">
@@ -26,7 +48,15 @@ const ContactMe = () => {
 				</div>
 			</div>
 			<div className="contact-main-content">
-				<img src={panda} height="300px" width="400px" alt="panda icon" />
+				<form ref={form} onSubmit={sendEmail}>
+					<label>Name</label>
+					<input type="text" name="user_name" />
+					<label>Email</label>
+					<input type="email" name="user_email" />
+					<label>Message</label>
+					<textarea name="message" />
+					<input type="submit" value="Send" />
+				</form>
 			</div>
 		</div>
 	);
