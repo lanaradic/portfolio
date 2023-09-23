@@ -1,3 +1,29 @@
+@media screen and (max-width: 600px) {
+	.about-me-wrapper {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		width: 90%;
+		height: 170%;
+		flex-shrink: 0;
+		border-radius: 8px;
+		border: 1px solid #1e2d3d;
+		background: #011627;
+		flex-wrap: nowrap;
+		overflow: scroll;
+		overflow-y: auto;
+		overflow-x: auto;
+		transition: 0.3s ease;
+		z-index: 2;
+		position: absolute;
+		transform: translateY(0);
+		transform: translateX(0);
+		margin-top: 522px;
+	}
+}
+
 .about-me-wrapper {
 	display: flex;
 	justify-content: flex-start;

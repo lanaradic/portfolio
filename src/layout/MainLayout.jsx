@@ -48,7 +48,7 @@ const MainLayout = ({ children }) => {
 								_projects
 							</div>
 						</Link>
-						<div className="empty"></div>
+
 						<Link
 							onClick={() => handleLinkClick('_contact_me')}
 							to="/ContactMe"

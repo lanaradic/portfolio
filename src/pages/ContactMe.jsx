@@ -31,7 +31,7 @@ const ContactMe = () => {
 	return (
 		<div className="contatct-main">
 			<div className="nav-wraper">
-				<div className="projects-title-wrapper">***Contact me on***</div>
+				<div className="contact-title-wrapper">***Contact me on***</div>
 				<div className="nav-icon-title-wrapper">
 					<div className="social-icon-wrapper">
 						<img src={mail} height="20px" alt="mail icon" />
@@ -42,7 +42,7 @@ const ContactMe = () => {
 						<a href="https://mail.google.com/mail/u/1/#inbox">
 							lanaradic1990@gmail.com
 						</a>
-						<p>099/333-28-50</p>
+						<a href="https://github.com/lanaradic">099/3332850</a>
 						<a href="https://github.com/lanaradic">@lanaradic</a>
 					</div>
 				</div>

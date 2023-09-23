@@ -1,3 +1,74 @@
+@media screen and (max-width: 600px) {
+	.contatct-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		max-height: 324px;
+		width: -webkit-fill-available;
+	}
+	.contact-main-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		flex-grow: 6;
+		max-height: 154px;
+		min-width: 500px;
+	}
+
+	.nav-wraper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 1;
+		width: -webkit-fill-available;
+		max-height: 224px;
+		width: 250px;
+	}
+	.social-contact-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 40px;
+		flex-grow: 2;
+		min-height: 460px;
+		width: 80px;
+		margin-top: 25px;
+	}
+
+	.social-icon-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		gap: 32px;
+		min-height: 460px;
+		width: 80px;
+		margin-top: 20px;
+	}
+	.contact-title-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: -webkit-fill-available;
+		gap: 10px;
+		padding-left: 15px;
+		height: 35px;
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 45px;
+		border: 1px solid #1e2d3d;
+		min-width: 480px;
+		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+	}
+}
+
 .contatct-main {
 	display: flex;
 	justify-content: flex-start;
@@ -11,20 +82,20 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-grow: 1;
-
+	width: -webkit-fill-available;
 	min-height: 524px;
+	width: 250px;
 }
 .contact-main-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	align-items: flex-start;
-	flex-grow: 3;
-	min-height: 552px;
-	border: 1px solid #1e2d3d;
+	align-items: center;
+	flex-grow: 6;
+	min-height: 554px;
 	box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
 }
-.projects-title-wrapper {
+.contact-title-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -39,13 +110,14 @@
 	font-weight: 300;
 	line-height: 45px;
 	border: 1px solid #1e2d3d;
+	max-width: 355px;
 }
 .nav-icon-title-wrapper {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
 	flex-grow: 3;
-	width: -webkit-fill-available;
+	width: webkit-fill-;
 }
 .social-icon-wrapper {
 	display: flex;

@@ -1,3 +1,16 @@
+@media screen and (max-width: 600px) {
+	.details-nav-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		padding-left: 15px;
+		min-width: 508px;
+		height: 35px;
+		font-size: 16px;
+		border-bottom: 1px solid #1e2d3d;
+	}
+}
+
 .details-wrapper {
 	display: flex;
 	flex-direction: column;
