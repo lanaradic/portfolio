@@ -11,10 +11,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		align-items: center;
+		align-items: flex-start;
 		flex-grow: 6;
 		max-height: 154px;
-		min-width: 500px;
+		min-width: 600px;
 	}
 
 	.nav-wraper {
@@ -64,7 +64,7 @@
 		font-weight: 300;
 		line-height: 45px;
 		border: 1px solid #1e2d3d;
-		min-width: 480px;
+		min-width: 600px;
 		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
 	}
 }
