@@ -1,13 +1,10 @@
-@media screen and (max-width: 600px) {
-}
-
 .project-card-wrapper {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 280px;
-	height: 350px;
+	width: 25%;
+	height: 20em;
 	border-radius: 15px;
 	border: 1px solid #1e2d3d;
 	background: #011221;
@@ -18,7 +15,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-grow: 2;
-	height: 150px;
+	height: 50%;
 	width: -webkit-fill-available;
 	overflow: hidden;
 }
@@ -28,6 +25,6 @@
 	align-items: center;
 	padding-left: 15px;
 	flex-grow: 2;
-	height: 20px;
+	height: 10%;
 	width: -webkit-fill-available;
 }

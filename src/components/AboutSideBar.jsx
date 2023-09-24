@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import '../components/styles/aboutSideBar.scss';
 import arrow from '../assets/arrow.svg';
-import mail from '../assets/mail-icon.svg';
-import phone from '../assets/phone-icon.svg';
 import map1 from '../assets/map1.svg';
 import map2 from '../assets/map2.svg';
 import map3 from '../assets/map3.svg';
@@ -55,20 +53,6 @@ const AboutSideBar = () => {
 						Education
 					</div>
 				</Link>
-			</div>
-			<div className="contact-me-wrapper">
-				<img src={arrow} height="14px" alt="arrow button" />
-				contact
-			</div>
-			<div className="contact-list">
-				<div className="list-item">
-					<img src={mail} height="14px" alt="mail button" />
-					lanaradic1990
-				</div>
-				<div className="list-item">
-					<img src={phone} height="14px" alt="phone button" />
-					099_333_28_50
-				</div>
 			</div>
 		</div>
 	);

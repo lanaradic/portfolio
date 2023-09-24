@@ -1,26 +1,11 @@
-@media screen and (max-width: 600px) {
-	.intro {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		flex-grow: 2;
-		justify-content: flex-start;
-		align-items: flex-start;
-		padding-left: 0px;
-		height: 100%;
-		color: #607b96;
-		gap: 5px;
-	}
-}
-
 .intro {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	flex-grow: 2;
 	justify-content: center;
-	align-items: flex-start;
-	padding-left: 210px;
+	align-items: flex-end;
+	padding-left: 10%;
 	height: 100%;
 	color: #607b96;
 	gap: 5px;
