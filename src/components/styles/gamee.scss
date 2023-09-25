@@ -163,3 +163,12 @@ button {
 	width: 60px;
 	color: #43d9ad;
 }
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.game {
+		display: none;
+	}
+
+	.game-box {
+		display: none;
+	}
+}

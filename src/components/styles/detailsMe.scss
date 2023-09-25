@@ -37,3 +37,17 @@
 	height: 80%;
 	width: -webkit-fill-available;
 }
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.details-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 1;
+		min-height: 80%;
+		border-right: 1px solid #1e2d3d;
+		border-left: 1px solid #1e2d3d;
+		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+	}
+}

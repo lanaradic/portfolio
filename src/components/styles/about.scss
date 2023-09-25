@@ -6,3 +6,31 @@
 	flex-grow: 2;
 	color: #607b96;
 }
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.about-me-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		min-height: 65%;
+		flex-grow: 2;
+		gap: 10px;
+		color: #607b96;
+		margin-top: 10em;
+		overflow: scroll;
+		overflow-y: auto;
+		transition: 0.3s ease;
+		z-index: 3;
+	}
+
+	// ::-webkit-scrollbar {
+	// 	width: 10px;
+	// 	height: 50%;
+	// }
+	// ::-webkit-scrollbar-track {
+	// 	background: #011627;
+	// }
+	// ::-webkit-scrollbar-thumb {
+	// 	background: #607b96;
+	// }
+}
