@@ -82,3 +82,43 @@
 ::-webkit-scrollbar-thumb {
 	background: #607b96;
 }
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.main-project-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 6;
+		min-height: 90%;
+		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+		width: 20em;
+	}
+	.projects2-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		min-height: 90%;
+		width: 100%;
+		margin-top: 11em;
+	}
+	.project-cards-wrapper {
+		display: flex;
+		flex-direction: column;
+		// position: absolute;
+		// transform: translateY(0);
+		justify-content: flex-start;
+		align-items: flex-start;
+		gap: 20px;
+		flex-grow: 1;
+		margin-left: 35px;
+		padding-top: 55px;
+		max-height: 60%;
+		width: 60%;
+		flex-wrap: wrap;
+		overflow: scroll;
+		overflow-y: auto;
+		transition: 0.3s ease;
+		color: #c9c9c9;
+		z-index: 1;
+	}
+}

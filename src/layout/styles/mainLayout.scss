@@ -6,6 +6,7 @@
 	height: 100%;
 	background: #011221;
 	z-index: 1;
+	// position: relative;
 }
 
 .header-wrapper {
@@ -246,8 +247,8 @@
 		flex-direction: column;
 		width: 90%;
 		height: 90%;
-		flex-shrink: 0;
 		border-radius: 8px;
+		flex-shrink: 0;
 		border: 1px solid #1e2d3d;
 		background: #011627;
 		overflow: hidden;

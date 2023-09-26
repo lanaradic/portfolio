@@ -32,3 +32,27 @@ p {
 	font-weight: 450;
 	margin-top: 5px;
 }
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.numbers-wrapper {
+		display: none;
+	}
+	.Bio-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 1;
+		padding-left: 0px;
+	}
+
+	.description2-wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-content: flex-start;
+		margin-left: 0px;
+		padding-right: 3px;
+		height: 35em;
+		overflow: hidden;
+		min-width: 100%;
+	}
+}
