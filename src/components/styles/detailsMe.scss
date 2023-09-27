@@ -44,12 +44,13 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
-		flex-grow: 1;
-		min-height: 35em;
-		width: 99%;
+		flex-grow: 2;
+		min-height: 30em;
+		width: 80%;
 		border: 1px solid #1e2d3d;
 		margin-bottom: 0em;
 		box-shadow: none;
+		overflow: scroll;
 	}
 
 	.details-nav-wrapper {
@@ -73,6 +74,9 @@
 		height: 80%;
 		width: 100%;
 		border: none;
+		text-align: right;
+		padding-right: 30px;
+		margin-right: 30px;
 	}
 
 	.some-wrapper {
@@ -81,8 +85,11 @@
 		justify-content: flex-start;
 		align-items: flex-start;
 		flex-grow: 1;
-		min-height: 80%;
+		min-height: 70%;
 		width: 100%;
 		border: none;
+		text-align: right;
+		padding-right: 30px;
+		margin-right: 30px;
 	}
 }
