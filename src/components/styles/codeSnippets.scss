@@ -67,7 +67,7 @@
 	border: 1px solid #1e2d3d;
 	background: #011221;
 }
-@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) and (min-device-height: 400px) and (max-device-height: 800px) {
 	.container1-wrapper {
 		display: flex;
 		flex-direction: column;

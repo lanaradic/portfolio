@@ -17,7 +17,7 @@ const MainLayout = ({ children }) => {
 		<>
 			<div className="main-layout-wrapper">
 				<div className="main-content-wrapper">
-					<nav className="header-wrapper">
+					<header className="header-wrapper">
 						<div className="name-wrapper">
 							<img src={pandica} height="30px" alt="logo" /> *Lana*
 						</div>
@@ -62,7 +62,7 @@ const MainLayout = ({ children }) => {
 								_contact_me
 							</div>
 						</Link>
-					</nav>
+					</header>
 
 					<div className="mid-wrapper">{children}</div>
 
