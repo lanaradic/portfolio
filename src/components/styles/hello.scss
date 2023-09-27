@@ -55,13 +55,14 @@ h3 {
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		flex-grow: 4;
+		flex-grow: 3;
 		justify-content: center;
 		align-items: center;
 		padding-left: 10%;
 		height: 100%;
 		color: #607b96;
 		gap: 5px;
+		padding-top: 10%;
 	}
 
 	.rules-wrapper {
