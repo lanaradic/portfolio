@@ -173,7 +173,8 @@
 		width: 100%;
 		min-height: 100%;
 		background: #011221;
-		z-index: 1;
+		z-index: 6;
+		opacity: 10;
 	}
 
 	.header-wrapper {
@@ -192,7 +193,8 @@
 		font-style: normal;
 		font-weight: 450;
 		line-height: 35px;
-		z-index: 2;
+		z-index: 6;
+		background: #011221;
 	}
 	.name-wrapper {
 		display: flex;
@@ -211,6 +213,7 @@
 		align-items: center;
 		width: 100%;
 		border: 1px solid #1e2d3d;
+		background: #011221;
 	}
 
 	.about-wrapper {
@@ -219,6 +222,7 @@
 		align-items: center;
 		width: 79%;
 		border: 1px solid #1e2d3d;
+		background: #011221;
 	}
 
 	.projects-wrapper {
@@ -227,6 +231,7 @@
 		align-items: center;
 		width: 85%;
 		border: 1px solid #1e2d3d;
+		background: #011221;
 	}
 
 	.Empty {
@@ -239,6 +244,7 @@
 		width: 73%;
 		border-left: 1px solid #1e2d3d;
 		border: 1px solid #1e2d3d;
+		background: #011221;
 	}
 
 	.main-content-wrapper {
@@ -269,7 +275,8 @@
 		font-weight: 450;
 		line-height: 35px;
 		margin-top: auto;
-		z-index: 1;
+		z-index: 5;
+		background: #011221;
 	}
 
 	.find-wrapper {
