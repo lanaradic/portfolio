@@ -126,3 +126,115 @@ form {
 		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
 	}
 }
+@media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
+	.contatct-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		min-height: 100%;
+		width: 60em;
+
+		overflow: scroll;
+		margin-top: 12em;
+		position: relative;
+	}
+	.nav-wraper {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 1;
+		width: -webkit-fill-available;
+		height: 18em;
+		width: 60em;
+		border-right: 1px solid #1e2d3d;
+	}
+	.contact-main-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		flex-grow: 6;
+		min-height: 33em;
+		width: 50em;
+		box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+		margin-right: 20px;
+		padding-right: 30px;
+		overflow: scroll;
+	}
+
+	form {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-left: 50px;
+		width: 25%;
+		font-size: 16px;
+		margin-right: 50px;
+
+		input {
+			width: 100%;
+			height: 35px;
+			padding: 7px;
+			outline: none;
+			border-radius: 5px;
+			color: #fff;
+			background-color: #011627;
+			border: 1px solid rgb(220, 220, 220);
+
+			&:focus {
+				border: 2px solid rgba(0, 206, 158, 1);
+			}
+		}
+
+		textarea {
+			max-width: 100%;
+			min-width: 100%;
+			width: 100%;
+			max-height: 100px;
+			min-height: 100px;
+			padding: 7px;
+			outline: none;
+			border-radius: 5px;
+			color: #fff;
+			background-color: #011627;
+			border: 1px solid rgb(220, 220, 220);
+
+			&:focus {
+				border: 2px solid rgba(0, 206, 158, 1);
+			}
+		}
+
+		label {
+			margin-top: 1rem;
+		}
+
+		input[type='submit'] {
+			margin-top: 2rem;
+			cursor: pointer;
+			background: rgba(97, 0, 194, 0.4);
+			color: rgba(0, 206, 158, 1);
+			border: 1px solid #1e2d3d;
+			box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.4);
+		}
+	}
+	.contact-title-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: -webkit-fill-available;
+		gap: 10px;
+		padding-left: 60px;
+		height: 35px;
+		color: #fff;
+		font-family: sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 45px;
+		border: 1px solid #1e2d3d;
+		max-width: 355px;
+	}
+}
