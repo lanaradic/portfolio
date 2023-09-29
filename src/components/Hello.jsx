@@ -8,7 +8,7 @@ const Hello = () => {
 			<h6>Hi all, I am</h6>
 			<h1>Lana Radic</h1>
 			<h3> /Front-end developer/ </h3>
-			<p> **// try_my_game //**</p>
+			<p className="game2"> **// try_my_game //**</p>
 			<div className="rules-wrapper">
 				<img src={rules} height="200px" alt="rules icon" />
 			</div>

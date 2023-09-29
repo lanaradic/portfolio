@@ -3,7 +3,7 @@ import './styles/mainLayout.scss';
 import '../styles/colors.scss';
 import github from '../assets/github-img.svg';
 import mail from '../assets/mail.svg';
-import pandica from '../assets/ideogram-modified.png';
+import panda2 from '../assets/panda-2.png';
 import { Link } from 'react-router-dom';
 
 const MainLayout = ({ children }) => {
@@ -19,7 +19,7 @@ const MainLayout = ({ children }) => {
 				<div className="main-content-wrapper">
 					<header className="header-wrapper">
 						<div className="name-wrapper">
-							<img src={pandica} height="30px" alt="logo" /> *Lana*
+							<img src={panda2} height="30px" alt="logo" /> *Lana*
 						</div>
 						<Link onClick={() => handleLinkClick('_hello')} to="/">
 							<div
