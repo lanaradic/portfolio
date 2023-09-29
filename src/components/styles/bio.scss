@@ -5,14 +5,7 @@
 	flex-grow: 1;
 	width: -webkit-fill-available;
 }
-.numbers-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	flex-grow: 0, 5;
-	min-height: 488px;
-}
+
 .description2-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -33,9 +26,6 @@ p {
 	margin-top: 5px;
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
-	.numbers-wrapper {
-		display: none;
-	}
 	.Bio-wrapper {
 		display: flex;
 		justify-content: flex-start;
@@ -55,5 +45,8 @@ p {
 		overflow: hidden;
 		width: 100%;
 		flex-wrap: wrap;
+		p {
+			text-align: left;
+		}
 	}
 }

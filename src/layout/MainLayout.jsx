@@ -64,6 +64,53 @@ const MainLayout = ({ children }) => {
 						</Link>
 					</header>
 
+					<header className="mob-wrapper">
+						<div className="name-wrapper">
+							<img src={panda2} height="30px" alt="logo" /> <p>*Lana*</p>
+						</div>
+						<Link onClick={() => handleLinkClick('_hello')} to="/">
+							<div
+								className={`hello-wrapper ${
+									active === '_hello' ? 'active' : ''
+								}`}
+							>
+								_hello
+							</div>
+						</Link>
+						<Link onClick={() => handleLinkClick('_about_me')} to="/About">
+							<div
+								className={`about-wrapper ${
+									active === '_about_me' ? 'active' : ''
+								}`}
+							>
+								_about_me
+							</div>
+						</Link>
+						<Link onClick={() => handleLinkClick('_projects')} to="/Projects">
+							<div
+								className={`projects-wrapper ${
+									active === '_projects' ? 'active' : ''
+								}`}
+							>
+								_projects
+							</div>
+						</Link>
+						<div className="Empty"></div>
+
+						<Link
+							onClick={() => handleLinkClick('_contact_me')}
+							to="/ContactMe"
+						>
+							<div
+								className={`contact-wrapper ${
+									active === '_contact_me' ? 'active' : ''
+								}`}
+							>
+								_contact_me
+							</div>
+						</Link>
+					</header>
+
 					<div className="mid-wrapper">{children}</div>
 
 					<footer className="footer-wrapper">
