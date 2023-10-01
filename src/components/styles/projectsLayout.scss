@@ -147,4 +147,7 @@
 		box-shadow: 2px 0px 30px 0px rgba(97, 0, 194, 0.4);
 		width: 63em;
 	}
+	::-webkit-scrollbar {
+		display: none;
+	}
 }

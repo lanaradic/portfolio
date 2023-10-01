@@ -15,4 +15,8 @@ export const data = [
 		title: 'Weather app',
 		image: '/weatherapp.png',
 	},
+	{
+		title: 'First Movie App',
+		image: '/reactApp.png',
+	},
 ];
