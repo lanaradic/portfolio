@@ -45,6 +45,9 @@ const ContactMe = () => {
 						</a>
 						<a href="https://github.com/lanaradic">099/3332850</a>
 						<a href="https://github.com/lanaradic">@lanaradic</a>
+						<a href="https://www.linkedin.com/in/lana-radi%C4%87-bb2695288/">
+							Linkedin Lana Radic
+						</a>
 					</div>
 				</div>
 			</div>
