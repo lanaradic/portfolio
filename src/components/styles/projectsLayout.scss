@@ -97,12 +97,14 @@
 	}
 	.projects2-wrapper {
 		display: flex;
+		flex-direction: column;
 		justify-content: flex-start;
 		align-items: flex-start;
 		height: 90%;
 		width: 100%;
 		margin-top: 0px;
 		padding-bottom: 10px;
+		overflow: scroll;
 	}
 	.project-cards-wrapper {
 		display: flex;
@@ -126,8 +128,26 @@
 		z-index: 3;
 	}
 	.nav-bar-wrapper {
-		display: none;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		border-right: 1px solid #1e2d3d;
+		min-height: 20em;
+		p {
+			font-size: 0.8rem;
+		}
+		padding-bottom: 0px;
 	}
+	.nav-icons-wrapper {
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		height: 5%;
+		padding-left: 15px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+
 	.projects-title-wrapper {
 		display: flex;
 		justify-content: flex-start;
