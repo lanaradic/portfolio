@@ -73,15 +73,9 @@
 	z-index: 1;
 }
 ::-webkit-scrollbar {
-	width: 10px;
-	height: 50%;
+	display: none;
 }
-::-webkit-scrollbar-track {
-	background: #011627;
-}
-::-webkit-scrollbar-thumb {
-	background: #607b96;
-}
+
 @media only screen and (min-device-width: 300px) and (max-device-width: 520px) {
 	.main-project-wrapper {
 		display: flex;
