@@ -1,7 +1,7 @@
 export const data = [
 	{
 		title: 'My first game',
-		image: '/spock.png',
+		image: '/game-up.png',
 	},
 	{
 		title: 'Log in form',
@@ -9,7 +9,7 @@ export const data = [
 	},
 	{
 		title: 'To do list',
-		image: '/to-do-list-2.png',
+		image: '/todo-icon.png',
 	},
 	{
 		title: 'Weather app',
@@ -17,6 +17,6 @@ export const data = [
 	},
 	{
 		title: 'First Movie App',
-		image: '/reactApp.png',
+		image: '/barbie2.png',
 	},
 ];
