@@ -5,6 +5,7 @@ import github from '../assets/github-img.svg';
 import mail from '../assets/mail.svg';
 import panda2 from '../assets/panda-2.png';
 import { Link } from 'react-router-dom';
+import arrow from '../assets/arrow.svg';
 
 const MainLayout = ({ children }) => {
 	const [active, setActive] = useState('Home');
@@ -23,7 +24,13 @@ const MainLayout = ({ children }) => {
 				<div className="main-content-wrapper">
 					<header className="header-wrapper">
 						<div className="name-wrapper">
-							<img src={panda2} height="30px" alt="logo" /> *Lana*
+							<img
+								src={panda2}
+								height="30px"
+								alt="logo"
+								className=" panda-img"
+							/>
+							*Lana*
 						</div>
 						<Link onClick={() => handleLinkClick('_hello')} to="/">
 							<div
@@ -70,7 +77,19 @@ const MainLayout = ({ children }) => {
 
 					<header className="mob-wrapper">
 						<div className="name-wrapper" onClick={toggleDropdown}>
-							<img src={panda2} height="30px" alt="logo" /> <p>*Menu*</p>
+							<img
+								src={panda2}
+								height="30px"
+								alt="logo"
+								className="panda-img"
+							/>
+							<p>***Menu***</p>
+							<img
+								src={arrow}
+								alt="menu"
+								height="18px"
+								className="arrow-img"
+							></img>
 						</div>
 						{showDropdown && (
 							<div className="dropdown-content">
