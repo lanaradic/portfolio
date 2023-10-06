@@ -8,9 +8,13 @@ import { Link } from 'react-router-dom';
 
 const MainLayout = ({ children }) => {
 	const [active, setActive] = useState('Home');
+	const [showDropdown, setShowDropdown] = useState(false);
 	const handleLinkClick = (link) => {
 		setActive(link);
 		console.log(active);
+	};
+	const toggleDropdown = () => {
+		setShowDropdown(!showDropdown);
 	};
 
 	return (
@@ -65,50 +69,56 @@ const MainLayout = ({ children }) => {
 					</header>
 
 					<header className="mob-wrapper">
-						<div className="name-wrapper">
-							<img src={panda2} height="30px" alt="logo" /> <p>*Lana*</p>
+						<div className="name-wrapper" onClick={toggleDropdown}>
+							<img src={panda2} height="30px" alt="logo" /> <p>*Menu*</p>
 						</div>
-						<Link onClick={() => handleLinkClick('_hello')} to="/">
-							<div
-								className={`hello-wrapper ${
-									active === '_hello' ? 'active' : ''
-								}`}
-							>
-								_hello
+						{showDropdown && (
+							<div className="dropdown-content">
+								<Link onClick={() => handleLinkClick('_hello')} to="/">
+									<div
+										className={`hello-wrapper ${
+											active === '_hello' ? 'active' : ''
+										}`}
+									>
+										_hello
+									</div>
+								</Link>
+								<Link onClick={() => handleLinkClick('_about_me')} to="/About">
+									<div
+										className={`about-wrapper ${
+											active === '_about_me' ? 'active' : ''
+										}`}
+									>
+										_about_me
+									</div>
+								</Link>
+								<Link
+									onClick={() => handleLinkClick('_projects')}
+									to="/Projects"
+								>
+									<div
+										className={`projects-wrapper ${
+											active === '_projects' ? 'active' : ''
+										}`}
+									>
+										_projects
+									</div>
+								</Link>
+								<div className="Empty"></div>
+								<Link
+									onClick={() => handleLinkClick('_contact_me')}
+									to="/ContactMe"
+								>
+									<div
+										className={`contact-wrapper ${
+											active === '_contact_me' ? 'active' : ''
+										}`}
+									>
+										_contact_me
+									</div>
+								</Link>
 							</div>
-						</Link>
-						<Link onClick={() => handleLinkClick('_about_me')} to="/About">
-							<div
-								className={`about-wrapper ${
-									active === '_about_me' ? 'active' : ''
-								}`}
-							>
-								_about_me
-							</div>
-						</Link>
-						<Link onClick={() => handleLinkClick('_projects')} to="/Projects">
-							<div
-								className={`projects-wrapper ${
-									active === '_projects' ? 'active' : ''
-								}`}
-							>
-								_projects
-							</div>
-						</Link>
-						<div className="Empty"></div>
-
-						<Link
-							onClick={() => handleLinkClick('_contact_me')}
-							to="/ContactMe"
-						>
-							<div
-								className={`contact-wrapper ${
-									active === '_contact_me' ? 'active' : ''
-								}`}
-							>
-								_contact_me
-							</div>
-						</Link>
+						)}
 					</header>
 
 					<div className="mid-wrapper">{children}</div>
