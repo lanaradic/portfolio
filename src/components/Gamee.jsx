@@ -93,7 +93,6 @@ const Gamee = () => {
 							{playerScore}:{computerScore}
 						</div>
 					</div>
-					<button onClick={resetGame}>Reset</button>
 					<div className="container">
 						<div className="section">
 							<div className="info">
@@ -119,6 +118,7 @@ const Gamee = () => {
 							</button>
 						))}
 					</div>
+					<button onClick={resetGame}>Reset</button>
 				</div>
 			</div>
 		</>
